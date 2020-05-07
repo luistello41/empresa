@@ -54,8 +54,9 @@ public class Analista extends Empleado {
    
     	 public void avandonarEmpresa(int años) {
    		  double indemnizacion=getSalario()/22; 
-   		  double finiquito=30*(indemnizacion)*años;  
-   	      System.out.println("el despido de un analista son 30 dias por "+años+" años  de trabajo en "+"\n"
+   		  double finiquito=28*(indemnizacion)*años;  
+   	     System.out.println("//INDEMNIZACION POR DESPIDO//");
+   		  System.out.println("el despido de un analista son 28 dias por "+años+" años  de trabajo en "+"\n"
    	      		+ "la empresa dando una indemnizacion por año de "+indemnizacion*30+"\n"+" y su finiquito asciende a:  "+finiquito);
    	  }
     
